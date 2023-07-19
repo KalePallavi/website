@@ -1,0 +1,45 @@
+html{
+	scroll-behavior: smooth;
+}
+.nav-link{
+	font-size: 20px;
+	color: white !important;
+}
+.logo{
+	height: 60px;
+}
+.carousel-item img{
+	height: 500px;
+}
+.about_img{
+	height: 350px;
+}
+.service_img{
+	height: 250px;
+}
+.gallery_img{
+	height: 200px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px 0px black;
+}
+.news_img{
+	height: 250px;
+}
+
+@media(max-width:667px)
+.carousel-item img{
+	height:350px;
+}
+.contact_icons{
+	height: 60px;
+	width: 60px;
+	background-color: black;
+	border-radius: 50%;
+	text-align: center;
+	margin-top: 15px;
+}
+.contact_icons i{
+	color: white;
+	font-size: 25px;
+	margin-top: 14px;
+}
